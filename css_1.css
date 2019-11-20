@@ -1,0 +1,178 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: white;
+  text-transform: capitalize;
+  font-family: cursive;
+}
+
+/* header .logo,.container{
+  display: flex;
+  padding: 10px;
+  background: #379683;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+
+}
+header .menu{
+  display: flex;
+}
+
+header  .dog{
+  height:150px;
+  width: 150px;
+  margin-left: 250px;
+  margin-top: 100px;
+  border-radius: 100px;
+  border: 6px solid #5cdb95;
+}
+header .logo span{
+  color: #5cdb95;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 40px;
+}
+header .nav-1{
+  display: flex;
+
+}
+header .nav-1 li{
+  list-style: none;
+  flex-direction: column;
+
+}
+ */
+.container {
+  display: flex;
+  background: white;
+  color: black;
+  height: 100px;
+  justify-content: space-between;
+  border-bottom: 5px double #5cdb95;
+}
+
+header .dog {
+  height: 150px;
+  width: 150px;
+  border-radius: 100px;
+  border: 5px inset #5cdb95;
+  margin-top: 0px;
+}
+
+header .title span {
+  color: #5cdb95;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+header .nav-one {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+header .nav-one div a {
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+  color: black;
+  border-radius: 5px;
+}
+
+header .nav-one div a:hover {
+  background-color: #5cdb95;
+  opacity: .8;
+  color: #05386b;
+}
+
+/* ====================================================================================== */
+.hero {
+  border-top: 70px solid white;
+  display: flex;
+  background: black;
+}
+
+.hero .hero-image {
+  height: 400px;
+  width: 100%;
+  opacity: .7;
+}
+
+/* .hero .hero-h1{
+  position: absolute;
+  padding:20%;
+}
+.hero .hero-p{
+  position: absolute;
+  padding:25%;
+} */
+.hero .hero-h1, .hero-p {
+  position: absolute;
+  color: white;
+}
+
+.hero .hero-h1 {
+  padding-left: 34%;
+  padding-top: 5%;
+  font-size: 30px;
+}
+
+.hero .hero-p {
+  padding-left: 40%;
+  padding-top: 10%;
+}
+
+/* ==================================================================================================== */
+.hero-2 .log {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  padding: 20px;
+  border-bottom: 2px double #5cdb95;
+  border-top: 2px double #5cdb95;
+  font-size: 20px;
+  background: #8eefaf;
+  height: 60px;
+}
+
+.hero-2 .log input {
+  margin: 10px 10px 1px 5px;
+  padding: 5px 100px 5px 100px;
+  border: 3px inset #5cdb95;
+  border-radius: 10px;
+}
+
+.hero-2 .log input:hover {
+  background-color: #edf5e1;
+}
+
+/* ========================================================================================================== */
+.images-last {
+  display: flex;
+}
+
+.images-last .one {
+  max-width: 25%;
+  /* border: 3px inset #5cdb95; */
+  border-radius: 20px;
+  margin: 7px;
+  text-align: center;
+  background: #e0e0e0;
+  color: white;
+  /* opacity: .8; */
+}
+
+.images-last .final {
+  max-width: 95%;
+  /* border: 3px inset #5cdb95; */
+  /* border-radius: 20px; */
+  text-align: center;
+  opacity: .8;
+}
+
+/* .images-last {
+  border: 2px solid black;
+} */
